@@ -1,0 +1,24 @@
+@import '../node_modules/foundation-sites/scss/foundation';
+
+@include foundation-global-styles;
+@include foundation-grid;
+
+body {
+    background-color:#f66733;
+}
+
+button {
+    border:2px solid rebeccapurple;
+    background-color:#FFF;
+    border-radius:5px;
+    padding:1%;
+}
+
+li {
+    display:flex;
+}
+
+#gameBoard {
+    border: 2px solid black;
+    max-width: 60%;
+}
